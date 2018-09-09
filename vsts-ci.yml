@@ -7,6 +7,6 @@ queue:
   name: PCCasa
 steps:
 - task: nkdagility.gittasks.gitsync-task.gitsync@1
-  displayName: 'Git Publish to https://github.com/alexgwasp/jupyternotes'
+  displayName: 'Git Publish to https://github.com/alexgwasp/jupyternotebooks'
   inputs:
-    GitRepoUrl: 'https://github.com/alexgwasp/jupyternotes'
+    GitRepoUrl: 'https://github.com/alexgwasp/jupyternotebooks'
